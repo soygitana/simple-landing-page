@@ -358,13 +358,13 @@ button:hover {
     line-height: 1.5;
 }
 
-.section-second {
+.price-list-section {
     background-color: #f1f1f1;
     width: 100%;
     margin-top: 50px;
 }
 
-.section-second-box::after {
+.price-box::after {
     content: "";
     display: block;
     width: 50px;
@@ -378,7 +378,7 @@ button:hover {
     top: -25px;
 }
 
-.section-second-box::before {
+.price-box::before {
     content: "";
     display: block;
     width: 24px;
@@ -391,7 +391,7 @@ button:hover {
     top: -11px;
 }
 
-.section-second-box-green::after {
+.price-box-green::after {
     content: "";
     display: block;
     width: 50px;
@@ -405,7 +405,7 @@ button:hover {
     top: -25px;
 }
 
-.section-second-box-green::before {
+.price-box-green::before {
     content: "";
     display: block;
     width: 24px;
@@ -418,7 +418,7 @@ button:hover {
     top: -11px;
 }
 
-.section-second .circle {
+.price-list-section .circle {
     width: 100px;
     height: 100px;
     background-color: #fff;
@@ -430,7 +430,7 @@ button:hover {
     top: 110px;
 }
 
-.section-second-box .price {
+.price-box .price {
     font-size: 22px;
     text-transform: uppercase;
     color: #c2bcbc;
@@ -438,13 +438,13 @@ button:hover {
     margin-top: 10px;
 }
 
-.section-second-box .price span {
+.price-box .price span {
     display: block;
     margin-top: -20px;
     font-size: 12px;
 }
 
-.section-second-box-green .price {
+.price-box-green .price {
     font-size: 22px;
     text-transform: uppercase;
     color: var(--color);
@@ -452,17 +452,17 @@ button:hover {
     margin-top: 10px;
 }
 
-.section-second-box-green .price span {
+.price-box-green .price span {
     display: block;
     margin-top: -20px;
     font-size: 12px;
 }
 
-.section-second .section-title {
+.price-list-section .price-box-title {
     padding-top: 20px;
 }
 
-.section-second-box {
+.price-box {
     height: 500px;
     border: 1px solid #ddd7d7;
     position: relative;
@@ -475,7 +475,7 @@ button:hover {
     text-align: center;
 }
 
-.section-second-box .section-second-box-title {
+.price-box .price-box-title {
     text-transform: uppercase;
     text-align: center;
     padding-top: 15px;
@@ -489,27 +489,27 @@ button:hover {
     line-height: 50px;
 }
 
-.section-second-box .small-box:nth-of-type(1) {
+.price-box .small-box:nth-of-type(1) {
     height: 50%;
 }
 
-.section-second-box .small-box:nth-of-type(2) {
+.price-box .small-box:nth-of-type(2) {
     height: 10%;
     background-color: #dfdbdb;
 }
 
-.section-second-box .small-box:nth-of-type(3) {
+.price-box .small-box:nth-of-type(3) {
     height: 10%;
     background-color: #e9e7e7;
 }
 
-.section-second-box:nth-of-type(3) .small-box:nth-of-type(4) {
+.price-box:nth-of-type(3) .small-box:nth-of-type(4) {
     height: 10%;
     background-color: #dfdbdb;
 }
 
 
-.section-second-box-green {
+.price-box-green {
     background-color: var(--color);
     height: 500px;
     margin-top: 30px;
@@ -521,7 +521,7 @@ button:hover {
 }
 
 
-.section-second-box-green .section-second-box-title {
+.price-box-green .price-box-title {
     font-size: 26px;
     color: #fff;
     text-transform: uppercase;
@@ -531,29 +531,29 @@ button:hover {
     padding-top: 40px;
 }
 
-.section-second-box-green .small-box:nth-of-type(1) {
+.price-box-green .small-box:nth-of-type(1) {
     height: 50%;
     background-color: var(--color);
 }
 
-.section-second-box-green .small-box:nth-of-type(2) {
+.price-box-green .small-box:nth-of-type(2) {
     height: 10%;
     background-color: #fff;
 }
 
 
-.section-second-box-green .small-box:nth-of-type(3) {
+.price-box-green .small-box:nth-of-type(3) {
     height: 10%;
     background-color: #dfdbdb;
 }
 
-.section-second-box-green .small-box:nth-of-type(4) {
+.price-box-green .small-box:nth-of-type(4) {
     height: 10%;
     background-color: #fff;
 }
 
 
-.section-second-box .small-box-btn {
+.price-box .small-box-btn {
     background-color: var(--color);
     width: 124px;
     height: 30px;
@@ -570,7 +570,7 @@ button:hover {
     right: calc(50% - 62px);
 }
 
-.section-second-box-green .small-box-btn {
+.price-box-green .small-box-btn {
     background-color: #fff;
     width: 124px;
     height: 30px;
