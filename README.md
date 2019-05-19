@@ -2,7 +2,7 @@
 
 Simple landing page created with HTML, CSS and slider using JS. Flexbox practice.  
 
-## Technologies used:
+### Technologies used:
 
 * HTML
 * CSS
