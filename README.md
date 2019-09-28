@@ -1,5 +1,7 @@
 ## Simple landing page
 
+https://soygitana.github.io/simple-landing-page/
+
 Simple landing page created with HTML, CSS and slider using JS. Flexbox practice.  
 
 ### Technologies used:
